@@ -15,9 +15,10 @@ a http [reverse] proxy base on aliyun serverless function compute
 例如: deployedurl/fproxy/?url=http://baidu.com
 
 or
-
+```
 header:
 GET /baseurl/fproxy/
 ...
 X_FC_URL: http://baidu.com
 
+```
