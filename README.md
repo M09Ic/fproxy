@@ -1,7 +1,7 @@
 # fproxy
-a http proxy base on aliyun serverless function compute 
+a http [reverse] proxy base on aliyun serverless function compute 
 
-基于阿里云云函数的建议转发工具, 支持webshell转发, http请求等
+基于阿里云云函数的正向/反向转发工具, 支持webshell转发, http请求等
 
 ## deploy
 新建 python自定义函数, http触发器
