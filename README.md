@@ -8,7 +8,16 @@ a http [reverse] proxy base on aliyun serverless function compute
 
 ## usage
 
-如需使用改代理, 需要在url中添加 url=[targeturl] 或者在添加头X_FC_URL: [targeturl]
+在url中添加 url=[targeturl] 或者在添加头X_FC_URL: [targeturl]
 
 其余的header, request_method, body都会原样转发
+
+例如: deployedurl/fproxy/?url=http://baidu.com
+
+or
+
+header:
+GET /baseurl/fproxy/
+...
+X_FC_URL: http://baidu.com
 
